@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  header {
+    background-color: white;
+  }
+  
+  
+  .container {
+    max-width: 1000px;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+  
+  .logo-insta {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-insta img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 5px;
+    
+  }
+  
+  
+  .descripcion-perfil {
+    margin-top: 20px;
+  }
+  
+  .img-perfil-borde {
+    float: left;
+    width: 50%;
+    padding: 0 50px;
+  }
+  
+  .img-perfil {
+    background-size: 100% 100%;
+    width: 50%;
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+  }
+  
+  .texto-perfil {
+    float: right;
+    width: 50%;
+  }
+  
+  .nombre-perfil  {
+    font-weight: 100;
+    font-size: 24px;
+  }
+  
+  
+  .descripcion-del-perfil h3 {
+    font-size: 18px;
+  }
+  
+  .descripcion-del-perfil p {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  #myTab {
+    justify-content: center;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .gallery-item {
+    width: 100%;
+    max-width: 300px; 
+    margin-bottom: 20px; 
+  }
+  
+  .gallery-item img {
+    width: 100%; 
+    height: auto; 
+  }
